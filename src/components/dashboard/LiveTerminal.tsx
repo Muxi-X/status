@@ -125,7 +125,7 @@ export function LiveTerminal({ events = [], className }: LiveTerminalProps) {
           tabIndex={0}
           role="region"
           aria-label="Terminal Event Log"
-          className="max-h-[280px] min-h-[180px] overflow-y-auto p-3 text-[11px] leading-relaxed scroll-smooth focus:outline-none"
+          className="scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-700 hover:scrollbar-thumb-zinc-600 max-h-[280px] min-h-[180px] overflow-y-auto p-3 text-[11px] leading-relaxed scroll-smooth focus:outline-none"
         >
           {sortedEvents.length === 0 ? (
             <div className="flex h-36 items-center justify-center text-zinc-600">

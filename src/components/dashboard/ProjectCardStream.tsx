@@ -31,7 +31,7 @@ export function ProjectCardStream({ className }: ProjectCardStreamProps) {
         </span>
       </div>
 
-      <div className="flex w-full gap-3 overflow-x-auto pb-1 pt-0.5">
+      <div className="custom-scrollbar flex w-full gap-3 overflow-x-auto pb-1 pt-0.5">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
